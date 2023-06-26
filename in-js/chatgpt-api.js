@@ -1,7 +1,7 @@
 import readline from "readline"
 import { OpenAIApi, Configuration } from "openai"
 import { config } from "dotenv"
-config()
+config({path: '../.env'})
 
 console.log("Welcome to ChatGPT-586")
 
